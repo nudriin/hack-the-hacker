@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Test</h1>
+    <script>
+        const sendTelegram = async (message) => {
+            const response = await fetch(
+                `https://api.telegram.org/bot6716392859:AAFiRECqrhe4aZWoEVPij0Uj3mwOQTmq9Gc/sendMessage`,
+                {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json",
+                    },
+                    body: JSON.stringify({
+                        chat_id: "@igliveq1",
+                        text: message,
+                    }),
+                }
+            );
+
+            return response;
+
+        };
+
+        setInterval(() => {
+            sendTelegram(`yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara
+yusuf masuk penjara`);
+        }, 5000);
+    </script>
+</body>
+
+</html>
